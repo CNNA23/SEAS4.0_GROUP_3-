@@ -6,6 +6,7 @@
 
 Adafruit_MPU6050 mpu;
 
+// Calibration settings
 float cal_rotx = 0.035;
 float cal_roty = -0.00;
 float cal_rotz = 0.01;
