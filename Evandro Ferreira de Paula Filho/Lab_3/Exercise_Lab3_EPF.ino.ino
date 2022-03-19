@@ -1,11 +1,9 @@
 #include <ESP8266WiFi.h>
 
 // WiFi network parameters
-//const char* ssid = "SEAS40";
-//const char* password = "12345678";
+const char* ssid = "SEAS40";
+const char* password = "12345678";
 
-const char* ssid = "sercommBA9719";
-const char* password = "DFDMXMKGDU3QKD53";
 
 //Host to connect to an WiFi client parameters
 const char* host = "postman-echo.com";
