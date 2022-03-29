@@ -93,10 +93,10 @@ void loop() {
     }
    //Reupdating measurments and posting on dweet.io
    value = analogRead(adc_id);
-   value = 0.1449*value+measure;
-   HistoryValue = value;
    uS = sonar.ping();
    measure = tank_depth - (uS/US_ROUNDTRIP_CM);
+   value = 0.1449*value+measure;
+   HistoryValue = value;
    RelayState = 1;
    itoa(value, val1, 10); 
    itoa(measure, val2, 10);
